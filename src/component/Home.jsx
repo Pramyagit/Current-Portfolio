@@ -4,6 +4,7 @@ import "../App.css";
 import image from "../image/ramya.jpeg";
 import AutoTextAnimation from "./Animation";
 import resume from "../assets/Resume.pdf";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -33,7 +34,7 @@ export const Home = () => {
             data-aos="fade-right"
             data-delay="1100"
           >
-            <a href="/Contact">Contact</a>
+            <Link to="/Contact">Contact</Link>
           </button>
           <button
             className="button-resume"

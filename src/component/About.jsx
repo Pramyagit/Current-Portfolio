@@ -46,7 +46,10 @@ export const About = () => {
       >
         Feel free connect here---
         <button className="btn-link glow-on-hover">
-          <a href="https://www.linkedin.com/in/ramya-palaniyandi-a5b935231/">
+          <a
+            href="https://www.linkedin.com/in/ramya-palaniyandi-a5b935231/"
+            target="_blank"
+          >
             Linked-in
           </a>
         </button>
