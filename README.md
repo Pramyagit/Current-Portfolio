@@ -4,18 +4,17 @@ https://pramyagit.github.io/Current-Portfolio/
 
 # steps:
 Use CI/CD pipelines (yml):
-name: Deploy React + Vite to Github Pages
 
+
+name: Deploy React + Vite to Github Pages
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
     steps:
       # Checkout the repository
       - name: Checkout code
