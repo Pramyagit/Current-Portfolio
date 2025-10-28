@@ -47,16 +47,28 @@ export const Home = () => {
             </a>
           </button>
           <div className="home_social" data-aos="fade-right" data-delay="1150">
-            <a href="https://www.facebook.com/" className="home_social-icon">
+            <a
+              href="https://www.facebook.com/"
+              className="home_social-icon"
+              target="_blank"
+            >
               <i className="bx bxl-facebook-circle "></i>
             </a>
-            <a href="https://www.instagram.com/" className="home_social-icon">
+            <a
+              href="https://www.instagram.com/"
+              className="home_social-icon"
+              target="_blank"
+            >
               <i className="bx bxl-instagram-alt "></i>
             </a>
             {/* <a href="https://www.twitter.com/" className="home_social-icon">
               <i className="bx bxl-twitter "></i>
             </a> */}
-            <a href="https://github.com/login/" className="home_social-icon">
+            <a
+              href="https://github.com/login/"
+              className="home_social-icon"
+              target="_blank"
+            >
               <i className="bx bxl-github "></i>
             </a>
           </div>

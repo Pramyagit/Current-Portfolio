@@ -1,9 +1,11 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 html {
   overflow-x: hidden;
 }
+
 :root {
   --background-color: rgba(1, 28, 31, 0.783);
   --color: #ffffff93;
@@ -12,11 +14,13 @@ html {
   --bg-color: rgb(2, 64, 83);
   --button: #0896af;
 }
+
 * {
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", serif;
   font-weight: 700;
@@ -47,6 +51,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
+
 .port:hover {
   background-color: rgb(6, 82, 114);
 }
@@ -57,6 +62,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .nav ul li {
   width: 100px;
   text-align: center;
@@ -65,6 +71,7 @@ body {
   right: 20px;
   overflow: hidden;
 }
+
 .nav ul li a {
   color: white;
 }
@@ -76,9 +83,11 @@ body {
   font-weight: 600;
   border-radius: 10px;
 }
+
 .menu {
   display: none;
 }
+
 /* .....................main ..................sections............*/
 /* home */
 .home {
@@ -86,30 +95,35 @@ body {
   height: 100vh;
   background-color: var(--background-color);
 }
+
 /* about */
 .about {
   width: 100%;
   height: 100vh;
   background-color: var(--background-color);
 }
+
 /* skill */
 .skill {
   width: 100%;
   height: calc(100vh + 80px);
   background-color: var(--background-color);
 }
+
 /* Demo */
 .demo {
   width: 100%;
   height: 100%;
   background-color: var(--background-color);
 }
+
 /* contact */
 .contact {
   width: 100%;
   height: 100vh;
   background-color: var(--background-color);
 }
+
 /* footer */
 .footer {
   width: 100%;
@@ -122,10 +136,12 @@ body {
   position: fixed;
   bottom: 0;
 }
+
 @media screen and (max-width: 600px) {
   .footer {
     width: 100%;
   }
+
   .nav ul {
     z-index: 11;
     min-width: 45%;
@@ -140,6 +156,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
   }
+
   .nav ul li {
     z-index: 10;
     flex-wrap: wrap;
@@ -149,9 +166,11 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .nav ul li:hover {
     background-color: rgb(15, 134, 158);
   }
+
   .menu {
     position: absolute;
     top: 16px;
@@ -161,6 +180,7 @@ body {
     align-items: center;
     color: white;
   }
+
   nav ul.open {
     display: block;
   }
@@ -172,6 +192,7 @@ body {
   font-size: 28px;
   color: var(--color);
 }
+
 @media screen and (max-width: 600px) {
   .animation {
     width: 100%;
@@ -179,6 +200,7 @@ body {
     font-family: "Courier New", Courier, monospace;
   }
 }
+
 @media screen and(max-width:1200px) {
   .nav ul {
     display: flex;
@@ -187,6 +209,7 @@ body {
     flex-wrap: wrap;
     background-color: red;
   }
+
   .nav ul li {
     width: 50px;
     text-align: center;
